@@ -40,6 +40,21 @@ body {
 }
 
 /*
+ position
+*/
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/*
+============================================= misc end ==============================================
+*/
+/*
  Header Area
 */
 
@@ -67,6 +82,34 @@ section .white_box{
 .wooden_box{
     background: url("../images/wooden_box.png") no-repeat;
     min-height: 100px;
+}
+
+.count_down{
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.progress_bar{
+    width: 75%;
+    margin: 2% auto 0 auto;
+    background: rgb(227, 227, 227);
+    height: 25px;
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.progress_bar .green{
+    width: 52%;
+    background: rgb(177, 196, 0);
+    margin: 0;
+}
+
+.percentage_progress{
+    color: rgb(133, 147, 0);
+    right: 10%;
+    line-height: 25px;
 }
 
 /*
