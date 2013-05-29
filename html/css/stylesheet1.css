@@ -1,0 +1,80 @@
+/*
+ Layout
+*/
+
+body {
+    background: rgb(227, 227, 227);
+}
+
+.body_container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*
+ Miscellaneous
+*/
+
+/*Font Style*/
+.lobster{
+    font-family: lobster;
+    line-height: 0;
+}
+
+.arial{
+    font-family: arial;
+    line-height: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*Font Size*/
+.size32{
+    font-size: 32pt;
+}
+
+.size8{
+    font-size: 8pt;
+}
+
+/*
+ Header Area
+*/
+
+header {
+    text-align: center;
+}
+
+
+/*
+ Content Area
+*/
+
+section{
+    margin: 5% 0 0 0;
+}
+
+.white_box{
+    background: #ffffff;
+}
+
+section .white_box{
+    min-height: 200px;
+}
+
+.wooden_box{
+    background: url("../images/wooden_box.png") no-repeat;
+    min-height: 100px;
+}
+
+/*
+ Footer Area
+*/
+
+footer .white_box{
+    margin: 0 auto;
+    min-height: 50px;
+    width: 90%;
+}
